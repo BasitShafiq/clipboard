@@ -31,7 +31,7 @@ services:
       - "3001:3001"
     environment:
       PORT: 3001
-      FRONTEND_URL: http://localhost:3000
+      FRONTEND_URL: http://13.206.194.219:3000
       DATABASE_URL: postgresql://postgres:postgres@postgres:5432/clip
       REDIS_URL: redis://redis:6379
       MAX_FILE_SIZE_MB: 5

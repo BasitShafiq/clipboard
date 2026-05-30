@@ -7,8 +7,8 @@ RUN npm install
 
 COPY . .
 
-ENV NEXT_PUBLIC_API_URL=http://localhost:3001
-ENV NEXT_PUBLIC_WS_URL=http://localhost:3001
+ENV NEXT_PUBLIC_API_URL=http://13.206.194.219:3001
+ENV NEXT_PUBLIC_WS_URL=http://13.206.194.219:3001
 
 RUN npm run build
 
