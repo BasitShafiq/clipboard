@@ -1,0 +1,374 @@
+{
+  "communities": {
+    "0": [
+      "app_page_home",
+      "components_clipboardfeed_clipboardfeed",
+      "components_clipboarditemcard_clipboarditemcard",
+      "components_clipboarditemcard_props",
+      "components_connectionpanel_connectionpanel",
+      "components_imageuploader_allowed_types",
+      "components_imageuploader_imageuploader",
+      "components_textinput_textinput",
+      "frontend_src_app_page_tsx",
+      "frontend_src_components_clipboardfeed_tsx",
+      "frontend_src_components_clipboarditemcard_tsx",
+      "frontend_src_components_connectionpanel_tsx",
+      "frontend_src_components_imageuploader_tsx",
+      "frontend_src_components_textinput_tsx",
+      "frontend_src_lib_api_ts",
+      "frontend_src_lib_socket_ts",
+      "frontend_src_store_useclipboardstore_ts",
+      "frontend_src_types_index_ts",
+      "lib_api_api_url",
+      "lib_api_createsession",
+      "lib_api_getapiurl",
+      "lib_api_getsessiondata",
+      "lib_api_uploadimage",
+      "lib_socket_disconnectsocket",
+      "lib_socket_getsocket",
+      "lib_socket_getwsurl",
+      "src_index_io",
+      "store_useclipboardstore_clipboardstate",
+      "store_useclipboardstore_useclipboardstore",
+      "types_index_clipboarditem"
+    ],
+    "1": [
+      "backend_src_middleware_upload_js",
+      "backend_src_routes_upload_js",
+      "backend_src_services_queue_js",
+      "middleware_upload_allowed_types",
+      "middleware_upload_crypto",
+      "middleware_upload_filefilter",
+      "middleware_upload_fs",
+      "middleware_upload_multer",
+      "middleware_upload_path",
+      "middleware_upload_storage",
+      "middleware_upload_upload",
+      "middleware_upload_uploads_dir",
+      "routes_upload_addimagejob_addcleanupjob",
+      "routes_upload_express",
+      "routes_upload_getsession",
+      "routes_upload_path",
+      "routes_upload_router",
+      "routes_upload_trackimage_pushclipboarditem",
+      "routes_upload_upload_uploads_dir",
+      "services_queue_addcleanupjob",
+      "services_queue_addimagejob",
+      "services_queue_bullmqredis",
+      "services_queue_cleanupqueue",
+      "services_queue_connectionopts",
+      "services_queue_imagequeue",
+      "services_queue_queue"
+    ],
+    "2": [
+      "frontend_package_dependencies",
+      "frontend_package_dependencies_next",
+      "frontend_package_dependencies_qrcode_react",
+      "frontend_package_dependencies_react",
+      "frontend_package_dependencies_react_dom",
+      "frontend_package_dependencies_socket_io_client",
+      "frontend_package_dependencies_zustand",
+      "frontend_package_devdependencies",
+      "frontend_package_devdependencies_autoprefixer",
+      "frontend_package_devdependencies_postcss",
+      "frontend_package_devdependencies_tailwindcss",
+      "frontend_package_devdependencies_types_node",
+      "frontend_package_devdependencies_types_react",
+      "frontend_package_devdependencies_types_react_dom",
+      "frontend_package_devdependencies_typescript",
+      "frontend_package_json",
+      "frontend_package_name",
+      "frontend_package_private",
+      "frontend_package_scripts",
+      "frontend_package_scripts_build",
+      "frontend_package_scripts_dev",
+      "frontend_package_scripts_start",
+      "frontend_package_version"
+    ],
+    "3": [
+      "backend_src_routes_session_js",
+      "backend_src_services_db_js",
+      "backend_src_services_redis_js",
+      "backend_src_socket_handler_js",
+      "routes_session_createsession_getsession_touchsession",
+      "routes_session_express",
+      "routes_session_getclipboardhistory",
+      "routes_session_router",
+      "routes_session_v4_uuidv4",
+      "services_db_createsession",
+      "services_db_getsession",
+      "services_db_pool",
+      "services_db_touchsession",
+      "services_redis_bullmqredis",
+      "services_redis_getclipboardhistory",
+      "services_redis_getimagemeta",
+      "services_redis_pushclipboarditem",
+      "services_redis_redis",
+      "services_redis_trackimage",
+      "socket_handler_getclipboardhistory_pushclipboarditem",
+      "socket_handler_getsession_touchsession",
+      "socket_handler_registersockethandlers"
+    ],
+    "4": [
+      "backend_package_author",
+      "backend_package_dependencies",
+      "backend_package_dependencies_bullmq",
+      "backend_package_dependencies_cors",
+      "backend_package_dependencies_dotenv",
+      "backend_package_dependencies_express",
+      "backend_package_dependencies_ioredis",
+      "backend_package_dependencies_multer",
+      "backend_package_dependencies_pg",
+      "backend_package_dependencies_sharp",
+      "backend_package_dependencies_socket_io",
+      "backend_package_dependencies_uuid",
+      "backend_package_description",
+      "backend_package_json",
+      "backend_package_keywords",
+      "backend_package_license",
+      "backend_package_main",
+      "backend_package_name",
+      "backend_package_scripts",
+      "backend_package_scripts_test",
+      "backend_package_version"
+    ],
+    "5": [
+      "backend_src_index_js",
+      "backend_src_services_cleanup_js",
+      "services_cleanup_schedulecleanupsweep",
+      "services_cleanup_startcleanupjob",
+      "services_db_initdb",
+      "services_queue_schedulecleanupsweep",
+      "services_worker_startworkers",
+      "src_index_app",
+      "src_index_cors",
+      "src_index_express",
+      "src_index_http",
+      "src_index_initdb",
+      "src_index_path",
+      "src_index_port",
+      "src_index_registersockethandlers",
+      "src_index_server",
+      "src_index_sessionroutes",
+      "src_index_start",
+      "src_index_startcleanupjob",
+      "src_index_startworkers",
+      "src_index_uploadroutes"
+    ],
+    "6": [
+      "frontend_tsconfig_compileroptions",
+      "frontend_tsconfig_compileroptions_allowjs",
+      "frontend_tsconfig_compileroptions_esmoduleinterop",
+      "frontend_tsconfig_compileroptions_incremental",
+      "frontend_tsconfig_compileroptions_isolatedmodules",
+      "frontend_tsconfig_compileroptions_jsx",
+      "frontend_tsconfig_compileroptions_lib",
+      "frontend_tsconfig_compileroptions_module",
+      "frontend_tsconfig_compileroptions_moduleresolution",
+      "frontend_tsconfig_compileroptions_noemit",
+      "frontend_tsconfig_compileroptions_paths",
+      "frontend_tsconfig_compileroptions_plugins",
+      "frontend_tsconfig_compileroptions_resolvejsonmodule",
+      "frontend_tsconfig_compileroptions_skiplibcheck",
+      "frontend_tsconfig_compileroptions_strict",
+      "frontend_tsconfig_exclude",
+      "frontend_tsconfig_include",
+      "frontend_tsconfig_json",
+      "frontend_tsconfig_paths"
+    ],
+    "7": [
+      "backend_src_services_worker_js",
+      "services_worker_bullmqredis",
+      "services_worker_cleanupworker",
+      "services_worker_connectionopts",
+      "services_worker_fs",
+      "services_worker_imageworker",
+      "services_worker_path",
+      "services_worker_sharp",
+      "services_worker_uploads_dir",
+      "services_worker_worker"
+    ],
+    "8": [
+      "docker-compose_backend_service",
+      "docker-compose_frontend_service",
+      "docker-compose_services",
+      "readme_clipboard_app"
+    ],
+    "9": [
+      "app_layout_metadata",
+      "app_layout_rootlayout",
+      "frontend_src_app_layout_tsx"
+    ],
+    "10": [
+      "frontend_next_config_js",
+      "frontend_next_config_nextconfig"
+    ],
+    "11": [
+      "frontend_postcss_config_js"
+    ],
+    "12": [
+      "frontend_tailwind_config_js"
+    ]
+  },
+  "cohesion": {
+    "0": 0.13333333333333333,
+    "1": 0.08923076923076922,
+    "2": 0.08695652173913043,
+    "3": 0.12987012987012986,
+    "4": 0.09523809523809523,
+    "5": 0.11904761904761904,
+    "6": 0.10526315789473684,
+    "7": 0.2,
+    "8": 0.5,
+    "9": 0.6666666666666666,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0
+  },
+  "gods": [
+    {
+      "id": "frontend_tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 15
+    },
+    {
+      "id": "store_useclipboardstore_useclipboardstore",
+      "label": "useClipboardStore",
+      "degree": 11
+    },
+    {
+      "id": "types_index_clipboarditem",
+      "label": "ClipboardItem",
+      "degree": 6
+    },
+    {
+      "id": "lib_socket_getsocket",
+      "label": "getSocket()",
+      "degree": 5
+    },
+    {
+      "id": "src_index_start",
+      "label": "start()",
+      "degree": 4
+    },
+    {
+      "id": "services_cleanup_startcleanupjob",
+      "label": "startCleanupJob()",
+      "degree": 4
+    },
+    {
+      "id": "services_db_getsession",
+      "label": "getSession()",
+      "degree": 4
+    },
+    {
+      "id": "frontend_package_scripts",
+      "label": "scripts",
+      "degree": 4
+    },
+    {
+      "id": "services_db_initdb",
+      "label": "initDB()",
+      "degree": 3
+    },
+    {
+      "id": "services_db_touchsession",
+      "label": "touchSession()",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "getSocket()",
+      "target": "io",
+      "source_files": [
+        "frontend/src/lib/socket.ts",
+        "backend/src/index.js"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; peripheral node `io` unexpectedly reaches hub `getSocket()`"
+    },
+    {
+      "source": "Clipboard App Overview",
+      "target": "Docker Compose Services",
+      "source_files": [
+        "README.md",
+        "docker-compose.yml"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "Home()",
+      "target": "useClipboardStore",
+      "source_files": [
+        "frontend/src/app/page.tsx",
+        "frontend/src/store/useClipboardStore.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `Home()` unexpectedly reaches hub `useClipboardStore`"
+    },
+    {
+      "source": "ClipboardFeed()",
+      "target": "useClipboardStore",
+      "source_files": [
+        "frontend/src/components/ClipboardFeed.tsx",
+        "frontend/src/store/useClipboardStore.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `ClipboardFeed()` unexpectedly reaches hub `useClipboardStore`"
+    },
+    {
+      "source": "Props",
+      "target": "ClipboardItem",
+      "source_files": [
+        "frontend/src/components/ClipboardItemCard.tsx",
+        "frontend/src/types/index.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "peripheral node `Props` unexpectedly reaches hub `ClipboardItem`"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `io` connect `Community 0` to `Community 5`?",
+      "why": "High betweenness centrality (0.139) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `name`, `version`, `main` to the rest of the system?",
+      "why": "110 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.08923076923076922 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 2` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 3` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.12987012987012986 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 4` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

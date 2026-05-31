@@ -1,0 +1,97 @@
+{
+  "nodes": [
+    {
+      "id": "docker-compose_services",
+      "label": "Docker Compose Services",
+      "file_type": "document",
+      "source_file": "docker-compose.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docker-compose_backend_service",
+      "label": "Backend Service (docker-compose)",
+      "file_type": "document",
+      "source_file": "docker-compose.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docker-compose_frontend_service",
+      "label": "Frontend Service (docker-compose)",
+      "file_type": "document",
+      "source_file": "docker-compose.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_clipboard_app",
+      "label": "Clipboard App Overview",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "docker-compose_services",
+      "target": "docker-compose_backend_service",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docker-compose.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docker-compose_services",
+      "target": "docker-compose_frontend_service",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docker-compose.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_clipboard_app",
+      "target": "docker-compose_services",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "clipboard_app_stack",
+      "label": "Clipboard App Stack",
+      "nodes": [
+        "readme_clipboard_app",
+        "docker-compose_backend_service",
+        "docker-compose_frontend_service"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "README.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
